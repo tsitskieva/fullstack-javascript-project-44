@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js"  
+    "brain-games": "bin/brain-games.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +19,14 @@
   "bugs": {
     "url": "https://github.com/tsitskieva/fullstack-javascript-project-44/issues"
   },
-  "homepage": "https://github.com/tsitskieva/fullstack-javascript-project-44#readme"
+  "homepage": "https://github.com/tsitskieva/fullstack-javascript-project-44#readme",
+  "keywords": [],
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0"
+  }
 }
-
